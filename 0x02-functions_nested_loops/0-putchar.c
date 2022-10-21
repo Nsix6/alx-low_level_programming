@@ -1,4 +1,4 @@
-nclude "main.h"
+include "main.h"
 
 /**
  * main - outputs _putchar and a new line
