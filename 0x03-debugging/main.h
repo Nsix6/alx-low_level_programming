@@ -1,15 +1,20 @@
-#ifndef MAIN_H
+#include "main.h"
 
-#define MAIN_H
+/**
+ *  *  main - tests function prints if integer positive or negative
+ *   *
+ *    *  Return: 0
+ *     *
+ */
 
-#include <stdio.h>
+int main(void)
 
-void positive_or_negative(int i);
+{
+		int i;
 
-int largest_number(int a, int b, int c);
+			i = 0;
 
-int convert_day(int month, int day);
+				positive_or_negative(i);
 
-void print_remaining_days(int month, int day, int year);
-
-#endif /* MAIN_H */
+					return (0);
+}
