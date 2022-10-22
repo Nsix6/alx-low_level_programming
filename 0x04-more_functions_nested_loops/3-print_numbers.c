@@ -6,12 +6,10 @@ include "main.h"
  */
 void print_numbers(void)
 {
-	int i;
+	int a = 0;
 
-	for (i = 0; i < 10; i++)
-	{
-		_putchar(i + '0');
-	}
+	while (a < 10)
+		_putchar(a++ + '0');
 
 	_putchar('\n');
 }
