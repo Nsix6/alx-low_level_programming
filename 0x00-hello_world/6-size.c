@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	printf("Size of a char: %i bytes\n", sizeof(char));
+	printf("Size of a char: %1u byte(s)\n", sizeof(char));
 
 	printf("Size of an int: %i byte(s)\n", sizeof(int));
 
