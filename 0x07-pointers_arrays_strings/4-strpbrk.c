@@ -4,7 +4,7 @@
  *   * @s: input
  *    * @accept: input
  *     * Return: Always 0 (Success)
- *      * Desc:
+ *      *Desc:
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -19,6 +19,6 @@ char *_strpbrk(char *s, char *accept)
 		}
 		s++;
 	}
-	return ('\0')
+	return ('\0');
 }
 
