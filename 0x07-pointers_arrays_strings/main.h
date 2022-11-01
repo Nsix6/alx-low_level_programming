@@ -1,13 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * file : main.h
- *
- * prototypes for functions used
- */
-
-#include <stddef.h>
+//prototypes
 
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);

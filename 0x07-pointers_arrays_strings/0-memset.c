@@ -6,18 +6,17 @@
  * @s: pointer to memory to be filled
  * @c: char to fill memory area
  * @n: number of bytes to be filled
- *
- * Return: pointer to be filled 
+ * Return: pointer to be filled
  */
-
-void *_memset(void *s, int c, size_t n)
+char _memset(char *s, char c, unsigned int n)
 {
-	unsigned int index;
-	unsigned char *memory = s, value =c;
-	
-	for (index = 0; index < n; index++)
-		memory[index] = value;
+	int i = 0;
 
-	return (memory);
+	for (; n > 0; i++)
+	{
+		s[i] = c;
+		n--;
+	}
+	return (s);
 }
 
