@@ -5,11 +5,12 @@
  *   * check - checks for digits in arguments
  *     * @s: string to check
  *       * Return: -1 if string contains non-digit, 0 otherwise
- *         */
+ */
 int check(char *s)
 {
 	char digit[] = "0123456789";
 	int i, j, checked;
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		checked = 0;
