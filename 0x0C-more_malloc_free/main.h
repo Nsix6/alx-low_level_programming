@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
+#define MAIN.H
+#ifndef MAIN.H
 
 int_putchar(char c);
 void *malloc_checked(unsigned int b);
