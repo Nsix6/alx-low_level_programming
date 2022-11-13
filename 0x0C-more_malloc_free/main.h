@@ -1,5 +1,8 @@
 #define MAIN.H
 #ifndef MAIN.H
+/**
+ * File : MAIN.h
+ */
 
 int_putchar(char c);
 void *malloc_checked(unsigned int b);
